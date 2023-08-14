@@ -1,0 +1,14 @@
+import java.util.Arrays;
+
+public class CitySorter {
+   public static void main(String[] args) {
+      // sort the command line arguments using Arrays.sort()
+      Arrays.sort(args);
+
+      // print the sorted city names
+      System.out.println("Sorted cities:");
+      for (String city : args) {
+         System.out.println(city);
+      }
+   }
+}
